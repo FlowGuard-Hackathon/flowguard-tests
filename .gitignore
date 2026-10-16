@@ -1,0 +1,27 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno — claves de Nebius/Supabase de prueba usadas por
+# las pruebas de integración y E2E
+.env
+.env*.local
+.env.test
+
+# Resultados y reportes de pruebas
+coverage/
+playwright-report/
+test-results/
+blob-report/
+.vitest-cache/
+
+# Logs
+*.log
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+
+# Credenciales sueltas que alguien podría arrastrar por accidente
+*.pem
+*.key
+service-account*.json
